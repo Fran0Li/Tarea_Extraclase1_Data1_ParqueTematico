@@ -1,4 +1,4 @@
-
+//Clase Padre Atracción
 public class Atraccion
 {
     //Atributos, private para ejemplificar el encapsulamiento
