@@ -7,7 +7,7 @@ public class Atraccion
     private bool estaFuncionando;
     
     //Constructor, para luego instanciar
-    public Atraccion(string nombre, int capacidadMax, bool estaFuncionando)
+    public Atraccion(string nombre, int capacidadMax)
     {
         this.nombre = nombre;
         this.capacidadMax = capacidadMax;
@@ -29,7 +29,7 @@ public class Atraccion
     public virtual void DarMantenimiento()
     {
         this.estaFuncionando = false;
-        Console.WriteLine($"A la atraccion {this.nombre} se le esta dando mantenmiento, la atraccion ya no está funcionando");
+        Console.WriteLine($"A la atraccion {this.nombre} se le esta dando mantenimiento, la atraccion ya no está funcionando");
     }
     public virtual void FinalizarMantenimiento()
     {
@@ -54,7 +54,7 @@ public class Atraccion
     {
         return this.nombre;
     }
-    public void SetNombre()
+    public void SetNombre(string nombre)
     {
         this.nombre = nombre;
     }
