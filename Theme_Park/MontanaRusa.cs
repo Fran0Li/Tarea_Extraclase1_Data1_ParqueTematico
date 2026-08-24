@@ -12,9 +12,9 @@ public class MontanaRusa : Atraccion
     }
     //Métodos
     //Override para ObtenerInfo, agrega atributos propios de esta clase
-    public override void ObtenerInfo()
+    public override void ObtenerInfo() //Ejemplo de Poliformismo
     {
-        base.ObtenerInfo();
+        base.ObtenerInfo(); //Llama al método de la clase padre y la ejecuta aquí(de primero)
         Console.WriteLine($"Altura Máxima: {this.alturaMax} metros");
         if (this.deCabeza)
         {
@@ -24,7 +24,7 @@ public class MontanaRusa : Atraccion
         {
             Console.WriteLine("No tiene una parte que sea de cabeza");
         }
-        
+        Console.WriteLine("-----------------------------------");
     }
     public float GetAlturaMax()
     {

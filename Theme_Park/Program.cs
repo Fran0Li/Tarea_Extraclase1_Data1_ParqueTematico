@@ -4,7 +4,7 @@
     {
         //Instanciar
         //Pruebas de clase padre 
-        Atraccion montana = new Atraccion("Montaña Rusa", 24);
+        MontanaRusa montana = new MontanaRusa("Montaña Rusa", 24, 20, true);
         montana.ObtenerInfo();
         montana.Operar();
 
@@ -17,6 +17,11 @@
         montana.SetNombre("Boomerang");
         montana.SetCapacidadMaxima(30);
         montana.SetCapacidadMaxima(-5);
+        montana.GetAlturaMax();
+        montana.SetAlturaMax(18);
+        montana.GetDeCabeza();
+        montana.SetDeCabeza(false);
+
 
         montana.ObtenerInfo();
     }

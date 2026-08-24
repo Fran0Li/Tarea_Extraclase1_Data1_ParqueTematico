@@ -38,6 +38,7 @@ public class Atraccion
     }
     public virtual void ObtenerInfo()
     {
+      Console.WriteLine("-----------------------------------"); 
       Console.WriteLine("INFO de atracción");
       Console.WriteLine($"Nombre: {this.nombre}, Capacidad Máxima: {this.capacidadMax}");
       if (this.estaFuncionando)
@@ -47,7 +48,7 @@ public class Atraccion
         else
         {
             Console.WriteLine("No está funcionando");
-        }
+        } 
     }
     //Métodos getters y setters
     public string GetNombre()
