@@ -15,7 +15,7 @@ public class Atraccion
     }
 
     //Métodos para el polimorfismo
-    public virtual void Operar()
+    public virtual void Operar()//Virtual permite que se pueda sobrescribir este método en clases hijas
     {
         if (this.estaFuncionando)
         {
