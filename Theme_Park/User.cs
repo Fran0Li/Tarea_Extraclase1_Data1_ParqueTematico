@@ -6,7 +6,7 @@ public class Usuario
     private int edad;
     private int cantidadTiquetes;
     private bool paseEspecial;
-    public Usuario(string nombre, int edad, int cantidadTiquetes, bool paseEspecial) //Constructor
+    public Usuario(string nombre, int edad, bool paseEspecial) //Constructor
     {
         this.nombre = nombre;
         this.edad = edad;
