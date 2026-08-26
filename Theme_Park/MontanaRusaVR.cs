@@ -1,4 +1,3 @@
-using System;
 
 //Ejemplo de HERENCIA: MontanaRusaVR hereda de MontanaRusa, que a su vez hereda de Atraccion (nivel 3)
 public class MontanaRusaVR : MontanaRusa
