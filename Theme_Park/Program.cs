@@ -43,5 +43,14 @@
 
         juan.UsarAtraccion(); 
         juan.ObtenerInfo(); 
+
+        //Pruebas de clase Ticket
+        Ticket ticketMontana = new Ticket(montana); //reutiliza la instancia de MontanaRusa
+        ticketMontana.ObtenerInfo();
+
+        ticketMontana.UsarTicket(); 
+        ticketMontana.UsarTicket(); 
+
+        ticketMontana.ObtenerInfo();
     }
 }
