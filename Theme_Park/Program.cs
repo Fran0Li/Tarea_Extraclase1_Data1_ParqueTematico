@@ -42,6 +42,11 @@
         juan.ObtenerInfo(); 
 
         juan.UsarAtraccion(); 
-        juan.ObtenerInfo(); 
+        juan.ObtenerInfo();
+
+        
+        //MontanaRusaVR rusaVR = new MontanaRusaVR("Viaje a Marte", 20, 50.0f, true, "Exploración Espacial");
+        //rusaVR.ObtenerInfo();
+        //rusaVR.Operar();
     }
 }
