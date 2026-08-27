@@ -16,8 +16,8 @@ public class Carrusel: Atraccion
     {
         base.ObtenerInfo(); //Llama al método de la clase padre y la ejecuta aquí(de primero)
         Console.WriteLine($"El carrusel {GetNombre()} cuenta con una capacidad de {GetCapacidadMax()} personas,");
-        Console.WriteLine($" la atraccion tiene una velocidad maxima de {velocidadMax}");
-        Console.WriteLine($" y personas por encima de los {estaturaMax} cm no puede entrar");
+        Console.WriteLine($" la atraccion tiene una velocidad maxima de {this.velocidadMax}");
+        Console.WriteLine($" y personas por encima de los {this.estaturaMax} cm no puede entrar");
         Console.WriteLine("---------------------------------------------");
         }
     
