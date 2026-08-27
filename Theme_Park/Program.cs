@@ -52,5 +52,10 @@
         ticketMontana.UsarTicket(); 
 
         ticketMontana.ObtenerInfo();
+        /*
+        CarruselNuevo = new Carrusel("Carrusel Animalitos", 20, 10, 120);
+        CarruselNuevo.ObtenerInfo()
+        CarruselNuevo.CumpleEstatura(134)
+        CarruselNuevo.CumpleEstatura(119)*/
     }
 }
