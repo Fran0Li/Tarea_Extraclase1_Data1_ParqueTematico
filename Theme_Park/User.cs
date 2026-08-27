@@ -19,8 +19,13 @@ public class Usuario
         this.cantidadTiquetes++;
         Console.WriteLine($"{this.nombre} compró el tiquete exitosamente, ahora tienes {cantidadTiquetes} tiquete/s");
     }
-    public bool PuedeUsarAtraccion() //Valida si el usuario puede usar una atraccion
+    public bool PuedeUsarAtraccion(Atraccion atraccion) //Valida si el usuario puede usar una atraccion
     {
+        if (!atraccion.GetEstaFuncionando())
+        {
+            Console.WriteLine($"La atracción {atraccion.GetNombre()} está en mantenimiento, no se puede usar");
+            return false;
+        }
         if (this.paseEspecial)
         {
             Console.WriteLine($"{this.nombre} tiene pase especial, no necesita tiquete");

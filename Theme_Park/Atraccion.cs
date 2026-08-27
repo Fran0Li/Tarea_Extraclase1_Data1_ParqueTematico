@@ -74,4 +74,8 @@ public class Atraccion
             Console.WriteLine("La capacidad máxima debe ser un entero positivo");
         }
     }
+    public bool GetEstaFuncionando()
+    {
+        return this.estaFuncionando;
+    }
 }
