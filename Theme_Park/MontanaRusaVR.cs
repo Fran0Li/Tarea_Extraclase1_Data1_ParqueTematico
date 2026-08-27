@@ -26,6 +26,7 @@ public class MontanaRusaVR : MontanaRusa
         {
             base.Operar();
             this.nivelBateriaLentes -= 15;
+            Console.WriteLine($"Batería restante {this.nivelBateriaLentes} %");
         }
     }
 
