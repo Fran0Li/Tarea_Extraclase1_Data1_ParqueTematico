@@ -12,7 +12,7 @@ public class Tiquete
     {
        if(this.usado == false)
         {
-            this.usado == true;
+            this.usado = true;
             Console.WriteLine($"Se ha usado este tiquete para la atracción: {this.atraccion.GetNombre()}");
         }
         else
